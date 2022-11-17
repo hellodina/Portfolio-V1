@@ -1,4 +1,4 @@
-# WebsiteV1.github.io
+# websiteV1.github.io
 This was version 1 of my personal website portfolio
 
 - 👋 Hi, I’m @hellodina
