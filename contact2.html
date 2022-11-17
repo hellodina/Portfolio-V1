@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ad astra</title>
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/general/favicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+<style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #8c4458;
+}
+a:active {
+	text-decoration: none;
+}
+
+table{
+	font-family:'Wire One', sans serif;
+	font-size: 2em;
+}
+
+input:focus, textarea:focus{
+	background-color: #e6c7cf;
+}
+
+#submit:focus{
+	color: white;
+}
+
+#submit{
+	margin-left: 135px;
+	font-family: 'Wire One', sans serif;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 2em;
+	background: #8c4458;
+	color: white;
+	width: 2em;
+}
+#hello{
+	font-family: 'Wire One', sans serif;
+	font-size: 4em;
+	color: #8c4458;
+	margin-top: -110px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <div class="icon">
+      <p><a href="index.html"><img src="images/general/seedOfLife2.jpg" width="50" height="50" alt="seed of life"></a></p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="nav">
+      <p><a href="about.html">about</a> <a href="contact.html">contact</a> </p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div class="content">
+  <h1 id="hello"> Say hello. Let's work together. </h1>
+  
+  <?php
+$action=$_REQUEST['action'];
+if ($action=="")    /* display the contact form */
+    {
+    ?>
+  <!--action="formInfo.php"-->
+   <form action="" method="POST" enctype="multipart/form-data" name="contact" id="contact">
+   <input type="hidden" name="action" value="submit">  
+        <table width="500" border="0" cellpadding="10" style="font-family:"Raleway">
+          <tr>
+            <td width="100">Name</td>
+            <td width="354"><label for="name"></label>
+            <input type="text" name="name" id="name" accesskey="N" tabindex="1"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><label for="email"></label>
+            <input type="text" name="email" id="email" accesskey="E" tabindex="2"></td>
+          </tr>
+          <tr>
+            <td>Subject</td>
+            <td><label for="subject"></label>
+            <input type="text" name="subjectLine" id="subjectLine" accesskey="S" tabindex="3"></td>
+          </tr>
+          <tr>
+            <td>Message</td>
+            <td><label for="message"></label>
+            <textarea name="message" id="message" accesskey="M" tabindex="4"></textarea></td>
+          </tr>
+        </table>
+    
+      <p align="left">
+        <input type="submit" name="submit" id="submit" value="Submit" accesskey="S" tabindex="5">
+      </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </form>
+  <?php
+    } 
+else                /* send the submitted data */
+    {
+    $name=$_REQUEST['name'];
+    $email=$_REQUEST['email'];
+    $subjectLine=$_REQUEST['subjectLine'];
+    $message=$_REQUEST['message'];
+    if (($name=="")||($email=="")||($subjectLine=="")||($message==""))
+        {
+        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+        }
+    else{        
+        $from="From: $name<$email>\r\nReturn-path: $email";
+        $subject="Message sent!";
+        mail("dsalama@ymail.com", $subject, $subjectLine, $message, $from);
+        echo "Email sent!";
+        }
+    }  
+?>
+  </div>
+  <div class="footer"><span class="col-sm-4">&copy;</span> Copyright 2018</div>
+  
+ 
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

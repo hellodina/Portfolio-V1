@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ad astra</title>
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/general/favicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+<!--LATEST JQUERY CORE LIBRARY-->  
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>  
+
+<!--FANCYBOX plugins-->  
+<link href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" rel="stylesheet" media="screen">  
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.js"></script>  
+
+<style type="text/css">
+
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #8c4458;
+}
+a:active {
+	text-decoration: none;
+}
+
+/**this styles images **/
+
+#thumbs p {  
+float:left;  
+width: 180px;  
+height: 12.5em;  
+margin: 10px 0 0 20px;  
+padding: 10px;   
+/**border: 1px solid silver; **/
+/**rounded borders**/  
+-moz-border-radius: 20px;  
+-webkit-border-radius:20px;  
+border-radius: 20px;  
+/**this styles caption text**/  
+font:14.5px 'Open Sans Condensed' , Raleway, Geneva, Arial, Helvetica, sans-serif;  
+color: #666;  
+text-align:center;  
+}  
+  
+/**recommend using same size images**/  
+#thumbs img {  
+width:  160px; /**adjust width to thumbnail**/  
+height: 120px; /**adjust height to thumbnail**/  
+margin-bottom: 1.5em;  
+opacity: 0.75; 
+}  
+  
+#thumbs img:hover {opacity: 1.0}  
+  
+/**float clearing**/  
+#thumbs:after {  
+content:".";  
+clear:left;   
+font-size:0px;  
+line-height:0;  
+display:block;  
+visibility:hidden;  
+}  
+
+</style>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadimages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadimages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <div class="icon">
+      <p><a href="index.html"><img src="images/general/seedOfLife2.jpg" width="50" height="50" alt="seed of life"></a></p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="nav">
+      <p><a href="about.html">about</a> <a href="contact.html">contact</a> </p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  	<div class="content">
+ 
+   <!--insert thumbnails with links to full size images below-->
+      <div id="thumbs">  
+      
+       <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/ataBigFaceFull.jpg" title=""><img src=	"images/Art/ataBigFaceThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Angi the Artist </p>  
+            
+      <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/scissorsFull.jpg" title=""><img src=	"images/Art/scissorsThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Scissors </p> 
+      
+      <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/girlOneFull.jpg" title=""><img src=	"images/Art/girlOneThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Girl I </p> 
+      
+      <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/oceanJewelsFull.jpg" title=""><img src=	"images/Art/oceanJewelsThumb.jpg" alt="Thumbnail 1" /></a> <br />
+       Ocean Jewels </p>
+       
+      <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/kingsFull.jpg" title=""><img src=	"images/Art/kingsThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Three Wise Kings </p>  
+            
+      <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/scarabFull.jpg" title=""><img src=	"images/Art/scarabThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Scarab </p> 
+       
+      <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/girlThreeFull.jpg" title=""><img src=	"images/Art/girlThreeThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Girl II </p>
+          
+        <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/rumiFull.jpg" title=""><img src=	"images/Art/rumiThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Rumi </p> 
+         
+         <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/aliceFull.jpg" title=""><img src=	"images/Art/aliceThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Alice </p> 
+        
+       <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/takashiFull.jpg" title=""><img src=	"images/Art/takashiThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Hustle 'n' Punch - Murakami </p> 
+         
+         <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/boltsFull.jpg" title=""><img src=	"images/Art/boltsThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+          Learn How to See </p> 
+          
+             <p><a class="fancybox" data-fancybox-group="gallery" href="images/Art/peppersFull.jpg" title=""><img src=	"images/Art/peppersThumb.jpg" alt="Thumbnail 1" /></a> <br />   
+         Peppers </p> 
+         
+      
+      <!--FancyBox function code-->   
+        
+        <script>  
+        $(document).ready(function() {  
+            $('.fancybox, iframe').fancybox();  
+        });  
+     	</script>
+       </div>
+     <!--end thumbs-->
+  </div>
+ 
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</body>
+</html>

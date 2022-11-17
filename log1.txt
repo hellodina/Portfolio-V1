@@ -1,0 +1,215 @@
+﻿Started: 12/13/2017 7:34 PM
+
+contact.html - same - not transferred
+formInfo.php - same - not transferred
+about.html - Transferring
+digital.html - Transferring
+fine_art.html - Transferring
+google.html - Transferring
+html.html - Transferring
+images\art\alice.psd - Transferring
+digital.html - error occurred
+images\art\aliceFull.jpg - Transferring
+images\art\aliceThumb.jpg - Transferring
+google.html - error occurred
+images\art\ataBigFaceFull.jpg - Transferring
+about.html - error occurred
+images\art\ataBigFaceFull.psd - Transferring
+images\art\ataBigFaceThumb.jpg - Transferring
+images\art\ataSmallFaceFull.jpg - Transferring
+images\art\ataSmallFaceFull.psd - Transferring
+images\art\bolts.psd - Transferring
+images\art\bolts2.psd - Transferring
+images\art\boltsFull.jpg - Transferring
+images\art\boltsFull.psd - Transferring
+images\art\boltsThumb.jpg - Transferring
+images\art\eyes.psd - Transferring
+images\art\girlFour.psd - Transferring
+images\art\girlOneFull.jpg - Transferring
+images\art\girlOneFull.psd - Transferring
+images\art\girlOneThumb.jpg - Transferring
+images\art\girlThreeFull.jpg - Transferring
+images\art\girlThreeFull.psd - Transferring
+images\art\girlThreeThumb.jpg - Transferring
+images\art\girlTwoFull.psd - Transferring
+images\art\girlTwoThumb.jpg - Transferring
+images\art\guerraFull.psd - Transferring
+images\art\kingsFull.jpg - Transferring
+images\art\kingsFull.psd - Transferring
+images\art\kingsThumb.jpg - Transferring
+images\art\learnHowToSee.jpg - Transferring
+images\art\oceanJewelsFull.jpg - Transferring
+images\art\oceanJewelsFull.psd - Transferring
+images\art\oceanJewelsThumb.jpg - Transferring
+images\art\OJ.psd - Transferring
+images\art\peaceCollage.psd - Transferring
+images\art\rumi.psd - Transferring
+images\art\rumiColor.psd - Transferring
+images\art\rumiFull.jpg - Transferring
+images\art\rumiThumb.jpg - Transferring
+images\art\scarabFull.jpg - Transferring
+images\art\scarabFull.psd - Transferring
+images\art\scarabThumb.jpg - Transferring
+images\art\scissorsFull.jpg - Transferring
+images\art\scissorsFull.psd - Transferring
+images\art\scissorsThumb.jpg - Transferring
+images\art\takashiColor.psd - Transferring
+html.html - error occurred - An FTP error occurred - cannot put html.html.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+images\art\takashiFull.jpg - Transferring
+images\art\takashiFull.psd - Transferring
+images\art\takashiThumb.jpg - Transferring
+images\art\Thumbs.db - Transferring
+images\art\alice.psd - error occurred
+images\art\aliceThumb.jpg - error occurred
+images\art\aliceFull.jpg - error occurred
+images\art\ataBigFaceFull.jpg - error occurred
+images\art\ataBigFaceFull.psd - error occurred
+images\art\girlOneFull.psd - error occurred
+images\art\boltsFull.jpg - error occurred
+images\art\girlOneThumb.jpg - error occurred
+images\art\girlThreeFull.psd - error occurred
+images\art\girlThreeFull.jpg - error occurred
+images\art\ataSmallFaceFull.psd - error occurred
+images\art\bolts2.psd - error occurred
+images\art\bolts.psd - error occurred
+images\art\boltsFull.psd - error occurred
+images\art\girlFour.psd - error occurred
+images\art\kingsFull.psd - error occurred
+images\art\eyes.psd - error occurred
+images\art\boltsThumb.jpg - error occurred
+images\art\learnHowToSee.jpg - error occurred
+images\art\oceanJewelsFull.jpg - error occurred
+images\art\peaceCollage.psd - error occurred
+images\art\oceanJewelsThumb.jpg - error occurred
+images\art\OJ.psd - error occurred
+images\art\rumi.psd - error occurred
+images\art\rumiColor.psd - error occurred
+images\art\scarabFull.jpg - error occurred
+images\art\rumiFull.jpg - error occurred
+images\art\rumiThumb.jpg - error occurred
+images\art\scarabFull.psd - error occurred
+images\art\scissorsFull.psd - error occurred
+images\art\scissorsThumb.jpg - error occurred
+images\art\scissorsFull.jpg - error occurred
+images\art\takashiColor.psd - error occurred
+images\art\takashiFull.jpg - error occurred
+images\art\takashiFull.psd - error occurred
+images\art\takashiThumb.jpg - error occurred
+images\art\girlThreeThumb.jpg - error occurred
+images\art\girlTwoThumb.jpg - error occurred
+images\art\girlTwoFull.psd - error occurred
+images\art\guerraFull.psd - error occurred
+images\art\oceanJewelsFull.psd - error occurred
+images\art\ataSmallFaceFull.jpg - error occurred
+images\art\Thumbs.db - error occurred
+images\digital\anatomyFull.jpg - Transferring
+images\digital\anatomyThumb.png - Transferring
+images\digital\anatomyFull.jpg - error occurred - An FTP error occurred - cannot put anatomyFull.jpg.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+images\digital\arcDeTriompheFull.png - Transferring
+images\digital\anatomyThumb.png - error occurred
+images\digital\arcDeTriompheThumbnail.png - Transferring
+images\digital\archwayFull.png - Transferring
+images\digital\arcDeTriompheThumbnail.png - error occurred
+images\digital\archwayThumb.png - Transferring
+images\digital\archwayFull.png - error occurred
+images\digital\ataLogo.png - Transferring
+images\digital\archwayThumb.png - error occurred
+images\digital\ataLogoThumb.png - Transferring
+images\digital\ataLogo.png - error occurred
+images\digital\basketsFull.png - Transferring
+images\digital\ataLogoThumb.png - error occurred
+images\digital\basketsThumb.png - Transferring
+images\digital\basketsFull.png - error occurred
+images\digital\beatleFull.png - Transferring
+images\digital\basketsThumb.png - error occurred
+images\digital\beatleThumb.png - Transferring
+images\digital\beatleFull.png - error occurred
+images\digital\bookCoverFull.png - Transferring
+images\digital\beatleThumb.png - error occurred
+images\digital\bookCoverThumb.png - Transferring
+images\digital\bookCoverFull.png - error occurred
+images\digital\bowlingFull.png - Transferring
+images\digital\bookCoverThumb.png - error occurred
+images\digital\bowlingThumb.png - Transferring
+images\digital\bowlingFull.png - error occurred
+images\digital\brushFull.png - Transferring
+images\digital\bowlingThumb.png - error occurred
+images\digital\brushThumb.png - Transferring
+images\digital\brushFull.png - error occurred
+images\digital\faucetFull.jpg - Transferring
+images\digital\brushThumb.png - error occurred - An FTP error occurred - cannot put brushThumb.png.  Access denied.  The file may not exist, or there could be a permission problem.   Make sure you have proper authorization on the server and the server is properly configured.
+images\digital\faucetThumb.jpg - Transferring
+/images/digital/ - error occurred - Unable to create server folder /images/digital/.  No response from the server. This may be due to one or more of the following reasons:  	- Accessing the server requires proxy settings that aren't properly set. Please verify that the proxy settings in the Site category of the Preferences dialog box are properly set,  	and that the Use Proxy option in the Site definition dialog box is selected. 	- The server may be accepting only passive mode or only active mode.  Toggling the "Use Passive FTP" checkbox may help you establish a connection. 	- If you are connecting to an IPv6 enabled server, please select "Use IPv6 transfer mode" checkbox in the Advanced site definition dialog.  	- Your local firewall may be blocking the incoming FTP data.  Please disable it to see if it makes a difference. 	- You may need to connect to the server using a different port than the one provided. Please specify the correct port in the box provided.
+images\digital\footballFull.jpg - user cancelled
+
+File activity incomplete. 65 file(s) or folder(s) were not completed.
+Files skipped: 2
+
+Files with errors: 65
+digital.html
+google.html
+about.html
+html.html
+images\art\alice.psd
+images\art\aliceThumb.jpg
+images\art\aliceFull.jpg
+images\art\ataBigFaceFull.jpg
+images\art\ataBigFaceFull.psd
+images\art\girlOneFull.psd
+images\art\boltsFull.jpg
+images\art\girlOneThumb.jpg
+images\art\girlThreeFull.psd
+images\art\girlThreeFull.jpg
+images\art\ataSmallFaceFull.psd
+images\art\bolts2.psd
+images\art\bolts.psd
+images\art\boltsFull.psd
+images\art\girlFour.psd
+images\art\kingsFull.psd
+images\art\eyes.psd
+images\art\boltsThumb.jpg
+images\art\learnHowToSee.jpg
+images\art\oceanJewelsFull.jpg
+images\art\peaceCollage.psd
+images\art\oceanJewelsThumb.jpg
+images\art\OJ.psd
+images\art\rumi.psd
+images\art\rumiColor.psd
+images\art\scarabFull.jpg
+images\art\rumiFull.jpg
+images\art\rumiThumb.jpg
+images\art\scarabFull.psd
+images\art\scissorsFull.psd
+images\art\scissorsThumb.jpg
+images\art\scissorsFull.jpg
+images\art\takashiColor.psd
+images\art\takashiFull.jpg
+images\art\takashiFull.psd
+images\art\takashiThumb.jpg
+images\art\girlThreeThumb.jpg
+images\art\girlTwoThumb.jpg
+images\art\girlTwoFull.psd
+images\art\guerraFull.psd
+images\art\oceanJewelsFull.psd
+images\art\ataSmallFaceFull.jpg
+images\art\Thumbs.db
+images\digital\anatomyFull.jpg
+images\digital\anatomyThumb.png
+images\digital\arcDeTriompheThumbnail.png
+images\digital\archwayFull.png
+images\digital\archwayThumb.png
+images\digital\ataLogo.png
+images\digital\ataLogoThumb.png
+images\digital\basketsFull.png
+images\digital\basketsThumb.png
+images\digital\beatleFull.png
+images\digital\beatleThumb.png
+images\digital\bookCoverFull.png
+images\digital\bookCoverThumb.png
+images\digital\bowlingFull.png
+images\digital\bowlingThumb.png
+images\digital\brushFull.png
+images\digital\brushThumb.png
+/images/digital/
+
+Finished: 12/13/2017 7:36 PM

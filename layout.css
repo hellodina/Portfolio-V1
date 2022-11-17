@@ -1,0 +1,93 @@
+@charset "utf-8";
+.container {
+	width: 890px;
+	height: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	float: left;
+	width: 890px;
+}
+.icon {
+	float: left;
+	width: 225px;
+}
+.nav {
+	float: left;
+	width: 665px;
+	text-align: right;
+	word-spacing: 10px;
+	font-size: 1.75em;
+	font-family: 'Wire One', sans-serif;
+}
+.footer {
+	float: left;
+	width: 890px;
+	margin-top: 150px;
+	text-align: right;
+	font-size: 1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.content {
+	float: left;
+	width: 890px;
+	margin-top: 100px;
+}
+/*INDEX PAGE NAV*/
+.tetrahedron {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin-left: 25px;
+	background-image: url('images/general/tetrahedron.jpg');
+}
+.tetrahedron:hover{
+	background-image: url('images/general/mona.jpg');
+}
+.octahedron {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin-left: 10px;
+	background-image: url('images/general/octahedron.jpg');
+}
+.octahedron:hover{
+	background-image: url('images/general/matrix.jpg');
+}
+.dodecahedron {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin-left: 10px;
+	background-image: url('images/general/dodecahedron.jpg');
+}
+.dodecahedron:hover{
+	background-image: url('images/general/python.jpg');
+}
+.hexahedron {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin-left: 10px;
+	background-image: url('images/general/hexahedron.jpg');
+}
+.hexahedron:hover{
+	background-image: url('images/general/html.jpg');
+}
+.icosahedron {
+	float: left;
+	width: 160px;
+	height: 160px;
+	margin-left: 10px;
+	background-image: url('images/general/icosahedron.jpg');
+}
+.icosahedron:hover{
+	background-image: url('images/general/scratchCat.jpg');
+}
+
+#breakline{
+	height: 1px;
+	width: 100%;
+	background-color: #6f9fad;
+}

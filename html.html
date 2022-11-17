@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ad astra</title>
+<link href="layout.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/general/favicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+<!--LATEST JQUERY CORE LIBRARY-->  
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>  
+
+<!--FANCYBOX plugins-->  
+<link href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" rel="stylesheet" media="screen">  
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.pack.js"></script>  
+
+<style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+#hello{
+	font-family: 'Wire One', sans serif;
+	font-size: 4em;
+	color: #8c4458;
+	margin-top: -110px;
+	margin-left: 40px;
+}
+a:link {
+	text-decoration: none;
+	color: #000;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #8c4458;
+}
+a:active {
+	text-decoration: none;
+}
+
+/**this styles images **/
+
+#thumbs p {  
+float:left;  
+width: 180px;  
+height: 12.5em;  
+margin: 10px 0 0 20px;  
+padding: 10px;   
+/**border: 1px solid silver; **/
+/**rounded borders**/  
+-moz-border-radius: 20px;  
+-webkit-border-radius:20px;  
+border-radius: 20px;  
+/**this styles caption text**/  
+font:14.5px 'Open Sans Condensed' , Raleway, Geneva, Arial, Helvetica, sans-serif;  
+color: #666;  
+text-align:center;  
+}  
+  
+/**recommend using same size images**/  
+#thumbs img {  
+width:  160px; /**adjust width to thumbnail**/  
+height: 120px; /**adjust height to thumbnail**/  
+margin-bottom: 1.5em;  
+opacity: 0.75; 
+}  
+  
+#thumbs img:hover {opacity: 1.0}  
+  
+/**float clearing**/  
+#thumbs:after {  
+content:".";  
+clear:left;   
+font-size:0px;  
+line-height:0;  
+display:block;  
+visibility:hidden;  
+}  
+
+</style>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadimages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadimages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <div class="icon">
+      <p><a href="index.html"><img src="images/general/seedOfLife2.jpg" width="50" height="50" alt="seed of life"></a></p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="nav">
+      <p><a href="about.html">about</a> <a href="contact.html">contact</a> </p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  
+ 
+  	<div class="content">
+ 	 <h1 id="hello"> web design </h1>
+     
+   <!--insert thumbnails with links to full size images below-->
+      <div id="thumbs">  
+      
+        <p><a href="http://nodropouts.weebly.com/" target="_blank"><img src="images/html/hsDropThumb.png" alt="" /></a> <br />   
+    No Dropouts
+  </p> 
+    
+  <p><a href="https://talibah4.github.io/Paris2" target="_blank"><img src="images/html/parisThumb.png" alt="" /></a> <br />   
+    Paris  
+  </p> 
+  
+     <p><a href="https://talibah4.github.io/ATA/" title="" target="_blank" class="fancybox" data-fancybox-group="gallery"><img src="images/html/atathumb.png" alt="" /></a> <br />
+   Angi the Artist</p> 
+  
+  
+  <p><a href="https://talibah4.github.io/Gallery" target="_blank"><img src="images/html/galleryThumb.png" alt="" /></a> <br />   
+    Gallery Portrait
+  </p> 
+  
+      <!--FancyBox function code-->   
+        
+        <script>  
+        $(document).ready(function() {  
+            $('.fancybox, iframe').fancybox();  
+        });  
+     	</script>
+       </div>
+     <!--end thumbs-->
+  </div>
+ 
+  <p>&nbsp;</p>
+  
+  <!--Breakline and Heading-->
+  <div id="breakline"></div>
+  <p style="font-family: 'Wire One'; font-size: 24px; color: #502956;" > Student Samples </p>
+  
+     <!--Student Work-->
+   <div id="thumbs">  
+      
+        <p><a href="https://talibah4.github.io/TwentyOnePilots/" target="_blank"><img src="images/html/jennyThumb.jpg" alt="" /></a> <br />   
+    Twenty One Pilots
+  </p> 
+  
+   <p><a href="https://talibah4.github.io/Vivi/" target="_blank"><img src="images/html/viviThumb.jpg" alt="" /></a> <br />   
+   Vivi 
+  </p> 
+  
+   <p><a href="https://talibah4.github.io/Joelle/" target="_blank"><img src="images/html/joelleThumb.jpg" alt="" /></a> <br />   
+    Interact Club
+  </p> 
+  
+        <p><a href="https://talibah4.github.io/Angie/" target="_blank"><img src="images/html/angieThumb.jpg" alt="" /></a> <br />   
+    Summer Adventures
+  </p> 
+  
+    <p><a href="https://talibah4.github.io/Dank/" target="_blank"><img src="images/html/dankThumb.jpg" alt="" /></a> <br />   
+    dank!Memes
+  </p> 
+  
+        <p><a href="https://talibah4.github.io/CosmicSky/" target="_blank"><img src="images/html/cosmicThumb.jpg" alt="" /></a> <br />   
+    Cosmic Sky
+  </p> 
+  
+  
+  <p><a href="https://talibah4.github.io/Goggles/" target="_blank"><img src="images/html/gogglesThumb.jpg" alt="" /></a> <br />   
+    Behind the Goggles.
+  </p> 
+  
+        <p><a href="https://talibah4.github.io/Okawari/" target="_blank"><img src="images/html/jingeThumb.jpg" alt="" /></a> <br />   
+   DJ Okawari
+  </p> 
+  
+
+  
+
+      <!--FancyBox function code-->   
+        
+        <script>  
+        $(document).ready(function() {  
+            $('.fancybox, iframe').fancybox();  
+        });  
+     	</script>
+       </div>
+     <!--end thumbs-->
+  
+  <p>&nbsp;</p> 
+  
+     <!--Breakline and Heading-->
+  <div id="breakline"></div>
+  <p style="font-family: 'Wire One'; font-size: 24px; color: #502956;" > Codecademy </p>
+  
+  
+     <!--Student Work-->
+   <div id="thumbs">  
+      
+        <p><a href="https://talibah4.github.io/Skillfair/" target="_blank"><img src="images/html/skillfairThumb.jpg" alt="" /></a> <br />   
+   Bootstrap
+  </p> 
+  
+   <p><a href="https://talibah4.github.io/Portfolio/" target="_blank"><img src="images/html/jQueryThumb.jpg" alt="" /></a> <br />   
+   Javascript/jQuery
+  </p> 
+  
+    <!--FancyBox function code-->   
+        
+        <script>  
+        $(document).ready(function() {  
+            $('.fancybox, iframe').fancybox();  
+        });  
+     	</script>
+       </div>
+     <!--end thumbs-->
+  
+  </div>
+  
+   
+   
+   
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+    
+</div>
+</body>
+</html>
