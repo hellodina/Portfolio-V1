@@ -1,5 +1,5 @@
 # websiteV1.github.io
-This was version 1 of my personal website portfolio: https://hellodina.github.io/websiteV1.github.io/
+<a href=" https://hellodina.github.io/websiteV1.github.io/">This was version 1 of my personal website portfolio</a>
 
 - 👋 Hi, I’m @hellodina
 - 👀 I’m interested in technology, education, and design
