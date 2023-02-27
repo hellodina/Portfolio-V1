@@ -1,5 +1,5 @@
 # portfolioV1
-This was version 1 of my project portfolio: https://hellodina.github.io/Portfolio-V1.github.io/
+This was version 1 of my project portfolio: https://hellodina.github.io/Portfolio-V1/
 
 - 👋 Hi, I’m @hellodina
 - 👀 I’m interested in technology, education, and design
